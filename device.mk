@@ -33,3 +33,4 @@ PRODUCT_COPY_FILES += \
 
 DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += \
 	device/google/gs-common/vintf/framework_compatibility_matrix.xml
+$(call inherit-product, vendor/lindroid/lindroid.mk)
